@@ -6,6 +6,7 @@ const path = require('path');
 
 const bookRoutes = require('./routes/bookRoutes');
 const subscriberRoutes = require('./routes/subscriberRoutes');
+const Book = require('../models/Book');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
